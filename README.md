@@ -1,5 +1,5 @@
 # Crypt
-Simpre but strong class for cryption
+Simple but strong class for cryption
 
 # Quick start
 
