@@ -5,7 +5,6 @@ remove last trailing '/'
 */
 define('PATH', '/my_path');
 
-
 define('KEY_FILE', 'key_file.php');//Name of your choice for the file that store the key
 define('SED', '["z","w","L","1","W","7","s","n","r","v","S","Y","J","6","X","H","Z","G","E","N","Q","U","A","x","M","\/","l","3","g","V","D","9","0","b","u","F","p","h","f","8","d","k","C","t","c","a","R","T","I","P","m","o","y","B","O","+","j","5","q","4","K","2","i","e"]');
 define('MIN_PADDING',7);

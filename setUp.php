@@ -13,6 +13,19 @@ function writer($str, $file){
 
 
 $str='<?php
+
+/**********************************************************************
+* Crypt class                                                         *
+*                                                                     *
+* Version: 1.0                                                        *
+* Date:    14-8-2020                                                  *
+* Author:  Dan Machado                                                *
+* DO NOT modify this file.                                            *
+* If you want to change this file, deleted and change the values      *
+* if needed you can modify the values for the constants LT and SHIFT  *
+* in config.php                                                       *
+**********************************************************************/
+
 $POOL=array(';
 for($i=0; $i<LT; $i++){
 	$str.="'". Crypt::random_str()."',";
