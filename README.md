@@ -9,6 +9,18 @@ Simple but strong class for encryption
 
 - Done!
 
+# Example
+
+    include 'Crypt.php';
+
+    $encrypt=new Crypt();
+
+    $my_secrect=$encrypt->encrypt("hello");
+
+    echo $my_secrect . "\n";
+    echo $encrypt->decrypt($my_secrect) . "\n";
+
+
 # How to
 
 - send encrypted messages between two servers:
